@@ -1,0 +1,128 @@
+Script started on Thu 10 Oct 2013 05:29:47 PM CAT
+]0;cezare@ubuntu: /var/www/hello_worldcezare@ubuntu:/var/www/hello_world$ script/serverbundle exec rake db:migrate[1Pcreatemigrate[14Pscript/server[Kscript/serverbundle exec rake db:migrate[1Pcreatesudo gedit /usr/local/bin/rake [5Pbundle exec rake db:createmigrate[14Pscript/server[Kscript/generate controller Home index hell byr[K[Key[K[Kyeo bye[C[C[C[C
+      exists  app/controllers/
+      exists  app/helpers/
+      create  app/views/home
+      create  test/functional/
+      create  test/unit/helpers/
+      create  app/controllers/home_controller.rb
+      create  test/functional/home_controller_test.rb
+      create  app/helpers/home_helper.rb
+      create  test/unit/helpers/home_helper_test.rb
+      create  app/views/home/index.html.erb
+      create  app/views/home/hello.html.erb
+      create  app/views/home/bye.html.erb
+]0;cezare@ubuntu: /var/www/hello_worldcezare@ubuntu:/var/www/hello_world$ d[Kscript/generate controller Home index hello bye[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@m[1@o[1@d[1@e[1@l[C[1@ [1@P[1@e[1@r[1@s[1@o[1@n[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KFName:string LName [K:string Age:integer[C[1@\[1@\[1@\[1P[1P[1P[1P[1P[1P[1P[1P[1P[C[C[C[C[C[C[1@:[1@F[1P[1@f[1@n[1@a[1@m[1@e[1P[1P[1P[1P[1P[1P[1P[1@ [C[C[C[C[C[C: Age:integerl Age:integern Age:integera Age:integerm Age:integere Age:integer[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[Kdatetime:dob
+      exists  app/models/
+      exists  test/unit/
+      exists  test/fixtures/
+      create  app/models/person.rb
+      create  test/unit/person_test.rb
+      create  test/fixtures/people.yml
+      create  db/migrate
+      create  db/migrate/20131010155234_create_people.rb
+]0;cezare@ubuntu: /var/www/hello_worldcezare@ubuntu:/var/www/hello_world$ gedit db/migrate/20131010155234_create_people.rb 
+
+]0;cezare@ubuntu: /var/www/hello_worldcezare@ubuntu:/var/www/hello_world$ 
+]0;cezare@ubuntu: /var/www/hello_worldcezare@ubuntu:/var/www/hello_world$ gedit db/migrate/20131010155234_create_people.rb [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscript/generate model Person string:fname string:lname datetime:dob[20Pcontroller Home index hello byeserver[Kbundle exec rake db:migrate[1Pcreatesudo gedit /usr/local/bin/rake [10Pgedit /usr/local/bin/[11Pwhich rubygedit /usr/local/bin/sudo gedit /usr/local/bin/rake [5Pbundle exec rake db:createmigrate[14Pscript/servergenerate controller Home index hello byemodel Person string:fname string:lname datetime:dob[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[18Pgedit db/migrate/20131010155234_create_people.rb [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kgedit db/migrate/20131010155234_create_people.rb [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscript/generate model Person string:fname string:lname datetime:dob[20Pcontroller Home index hello byeserver[Kbundle exec rake db:migrate[1Pcreatesudo gedit /usr/local/bin/rake [10Pgedit /usr/local/bin/[11Pwhich rubygedit /usr/local/bin/sudo gedit /usr/local/bin/rake [5Pbundle exec rake db:createmigrate[14Pscript/servergenerate controller Home index hello byemodel Person string:fname string:lname datetime:dob[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[18Pgedit db/migrate/20131010155234_create_people.rb [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kgedit db/migrate/20131010155234_create_people.rb [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kscript/destroy controller Home
+          rm  test/unit/helpers/home_helper_test.rb
+          rm  app/helpers/home_helper.rb
+          rm  test/functional/home_controller_test.rb
+          rm  app/controllers/home_controller.rb
+       rmdir  test/unit/helpers
+    notempty  test/unit
+    notempty  test
+       rmdir  test/functional
+    notempty  test
+    notempty  app/views/home
+    notempty  app/views
+    notempty  app
+    notempty  app/helpers
+    notempty  app
+    notempty  app/controllers
+    notempty  app
+]0;cezare@ubuntu: /var/www/hello_worldcezare@ubuntu:/var/www/hello_world$ script/destroy controller Home
+     missing  test/unit/helpers/home_helper_test.rb
+     missing  app/helpers/home_helper.rb
+     missing  test/functional/home_controller_test.rb
+     missing  app/controllers/home_controller.rb
+     missing  test/unit/helpers
+    notempty  test/unit
+    notempty  test
+     missing  test/functional
+    notempty  test
+    notempty  app/views/home
+    notempty  app/views
+    notempty  app
+    notempty  app/helpers
+    notempty  app
+    notempty  app/controllers
+    notempty  app
+]0;cezare@ubuntu: /var/www/hello_worldcezare@ubuntu:/var/www/hello_world$ script/destroy controller Homegedit db/migrate/20131010155234_create_people.rb [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscript/generate model Person string:fname string:lname datetime:dob[20Pcontroller Home index hello bye
+      exists  app/controllers/
+      exists  app/helpers/
+      exists  app/views/home
+      create  test/functional/
+      create  test/unit/helpers/
+      create  app/controllers/home_controller.rb
+      create  test/functional/home_controller_test.rb
+      create  app/helpers/home_helper.rb
+      create  test/unit/helpers/home_helper_test.rb
+   identical  app/views/home/index.html.erb
+   identical  app/views/home/hello.html.erb
+   identical  app/views/home/bye.html.erb
+]0;cezare@ubuntu: /var/www/hello_worldcezare@ubuntu:/var/www/hello_world$ script/generate controller Home index hello bye[17Pdestroy controller Home[C[C[1Pe[1Pe[1Pe[1Pe[1Pe[K[1Pe[1Pe[1Pe[1Pe[1Pe[1Pe[1Pe[1Pe[C[Kmodel Person
+    notempty  db/migrate
+    notempty  db
+          rm  db/migrate/20131010155234_create_people.rb
+          rm  test/fixtures/people.yml
+          rm  test/unit/person_test.rb
+          rm  app/models/person.rb
+       rmdir  test/fixtures
+    notempty  test
+    notempty  test/unit
+    notempty  test
+       rmdir  app/models
+    notempty  app
+]0;cezare@ubuntu: /var/www/hello_worldcezare@ubuntu:/var/www/hello_world$ script/destroy model Persongenerate controller Home index hello bye[17Pdestroy controller Homegedit db/migrate/20131010155234_create_people.rb [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscript/generate model Person string:fname string:lname datetime:dob[20Pcontroller Home index hello byeserver[Kbundle exec rake db:migrate[1Pcreatesudo gedit /usr/local/bin/rake [5Pbundle exec rake db:createmigrate[14Pscript/servergenerate controller Home index hello bye[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kscript/serverbundle exec rake db:migrate[1Pcreatesudo gedit /usr/local/bin/rake [10Pgedit /usr/local/bin/[11Pwhich rubyrake db:create[7Puby -vgem list[1Pruby -vake db:create[4Pwhich rubygedit /usr/local/bin/sudo gedit /usr/local/bin/rake [5Pbundle exec rake db:createmigrate[14Pscript/server[Kscript/generate model Person string:fname string:lname datetime:dob[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[18Pgedit db/migrate/20131010155234_create_people.rb [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[19Pscript/destroy controller Homegenerate controller Home index hello bye[20Pdestroy model Person[Kscript/destroy model Persongenerate controller Home index hello bye[17Pdestroy controller Homegedit db/migrate/20131010155234_create_people.rb [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscript/generate model Person string:fname string:lname datetime:dob[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kscript/generate model Person string:fname string:lname datetime:dob[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1@f[1@i[1@r[C[1@s[1@t[1@_[1@n[1@a[1@m[1@e[1@:[C[C[C[C[C[C[C[1@l[1@a[C[1@s[1@t[1@_[1@n[1@a[1@m[1@e[1@:[C[C[C[C[C[C[C[C[C[C[C[C\ datetime:dob[1P datetime:dob[1P datetime:dob[1P datetime:dob[1P datetime:dob[1P datetime:dob[1P datetime:dob[1P datetime:dob[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[Cdatetimeodatetimebdatetime:datetime
+      create  app/models/
+      exists  test/unit/
+      create  test/fixtures/
+      create  app/models/person.rb
+      create  test/unit/person_test.rb
+      create  test/fixtures/people.yml
+      exists  db/migrate
+      create  db/migrate/20131010160931_create_people.rb
+]0;cezare@ubuntu: /var/www/hello_worldcezare@ubuntu:/var/www/hello_world$ script/generate model Person first_name:string last_name:string dob:datetime[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdestroy model Person[Kgenerate controller Home index hello bye[17Pdestroy controller Homegedit db/migrate/20131010155234_create_people.rb [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscript/generate model Person string:fname string:lname datetime:dob[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kscript/serverbundle exec rake db:migrate[1Pcreatemigrate[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P
+rake aborted!
+ERROR: 'rake/rdoctask' is obsolete and no longer supported. Use 'rdoc/task' (available in RDoc 2.4.2+) instead.
+/var/www/hello_world/Rakefile:8
+(See full trace by running task with --trace)
+]0;cezare@ubuntu: /var/www/hello_worldcezare@ubuntu:/var/www/hello_world$ rake db:migratescript/generate model Person first_name:string last_name:string dob:datetime[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdestroy model Person[Kgenerate controller Home index hello bye[17Pdestroy controller Homegedit db/migrate/20131010155234_create_people.rb [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscript/generate model Person string:fname string:lname datetime:dob[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kscript/serverbundle exec rake db:migrate
+(in /var/www/hello_world)
+==  CreatePeople: migrating ===================================================
+-- create_table(:people)
+   -> 0.4789s
+==  CreatePeople: migrated (0.4792s) ==========================================
+
+]0;cezare@ubuntu: /var/www/hello_worldcezare@ubuntu:/var/www/hello_world$ bundle exec rake db:migrate[12P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscript/generate model Person first_name:string last_name:string dob:datetime[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdestroy model Person[Kgenerate controller Home index hello bye[C[C[C[C[C[C[C[C[C[C[17Pdestroy controller Homegenerate controller Home index hello bye[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KP[Kperao[K[Kson index edit update delete
+      exists  app/controllers/
+      exists  app/helpers/
+      create  app/views/person
+      exists  test/functional/
+      exists  test/unit/helpers/
+      create  app/controllers/person_controller.rb
+      create  test/functional/person_controller_test.rb
+      create  app/helpers/person_helper.rb
+      create  test/unit/helpers/person_helper_test.rb
+      create  app/views/person/index.html.erb
+      create  app/views/person/edit.html.erb
+      create  app/views/person/update.html.erb
+      create  app/views/person/delete.html.erb
+]0;cezare@ubuntu: /var/www/hello_worldcezare@ubuntu:/var/www/hello_world$ touch README.md
+]0;cezare@ubuntu: /var/www/hello_worldcezare@ubuntu:/var/www/hello_world$ ls
+[0m[01;34mapp[0m  [01;34mconfig[0m  [01;34mdb[0m  [01;34mdoc[0m  [01;32mGemfile[0m  [01;32mGemfile~[0m  Gemfile.lock  generate  [01;34mlib[0m  [01;34mlog[0m  [01;34mpublic[0m  Rakefile  README  README.md  [01;34mscript[0m  [01;34mtest[0m  [01;34mtmp[0m  [01;34mvendor[0m
+]0;cezare@ubuntu: /var/www/hello_worldcezare@ubuntu:/var/www/hello_world$ git init
+Initialized empty Git repository in /var/www/hello_world/.git/
+]0;cezare@ubuntu: /var/www/hello_worldcezare@ubuntu:/var/www/hello_world$ ls
+[0m[01;34mapp[0m  [01;34mconfig[0m  [01;34mdb[0m  [01;34mdoc[0m  [01;32mGemfile[0m  [01;32mGemfile~[0m  Gemfile.lock  generate  [01;34mlib[0m  [01;34mlog[0m  [01;34mpublic[0m  Rakefile  README  README.md  [01;34mscript[0m  [01;34mtest[0m  [01;34mtmp[0
