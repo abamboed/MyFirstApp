@@ -125,4 +125,194 @@ ERROR: 'rake/rdoctask' is obsolete and no longer supported. Use 'rdoc/task' (ava
 ]0;cezare@ubuntu: /var/www/hello_worldcezare@ubuntu:/var/www/hello_world$ git init
 Initialized empty Git repository in /var/www/hello_world/.git/
 ]0;cezare@ubuntu: /var/www/hello_worldcezare@ubuntu:/var/www/hello_world$ ls
-[0m[01;34mapp[0m  [01;34mconfig[0m  [01;34mdb[0m  [01;34mdoc[0m  [01;32mGemfile[0m  [01;32mGemfile~[0m  Gemfile.lock  generate  [01;34mlib[0m  [01;34mlog[0m  [01;34mpublic[0m  Rakefile  README  README.md  [01;34mscript[0m  [01;34mtest[0m  [01;34mtmp[0
+[0m[01;34mapp[0m  [01;34mconfig[0m  [01;34mdb[0m  [01;34mdoc[0m  [01;32mGemfile[0m  [01;32mGemfile~[0m  Gemfile.lock  generate  [01;34mlib[0m  [01;34mlog[0m  [01;34mpublic[0m  Rakefile  README  README.md  [01;34mscript[0m  [01;34mtest[0m  [01;34mtmp[0m  [01;34mvendor[0m
+]0;cezare@ubuntu: /var/www/hello_worldcezare@ubuntu:/var/www/hello_world$ git add .
+]0;cezare@ubuntu: /var/www/hello_worldcezare@ubuntu:/var/www/hello_world$ git stst[K[Katua[Ks
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#   (use "git rm --cached <file>..." to unstage)
+#
+#	new file:   Gemfile
+#	new file:   Gemfile.lock
+#	new file:   Gemfile~
+#	new file:   README
+#	new file:   README.md
+#	new file:   Rakefile
+#	new file:   app/controllers/application_controller.rb
+#	new file:   app/controllers/home_controller.rb
+#	new file:   app/controllers/home_controller.rb~
+#	new file:   app/controllers/person_controller.rb
+#	new file:   app/controllers/person_controller.rb~
+#	new file:   app/helpers/application_helper.rb
+#	new file:   app/helpers/home_helper.rb
+#	new file:   app/helpers/person_helper.rb
+#	new file:   app/models/person.rb
+#	new file:   app/views/home/bye.html.erb
+#	new file:   app/views/home/hello.html.erb
+#	new file:   app/views/home/index.html.erb
+#	new file:   app/views/person/delete.html.erb
+#	new file:   app/views/person/edit.html.erb
+#	new file:   app/views/person/edit.html.erb~
+#	new file:   app/views/person/index.html.erb
+#	new file:   app/views/person/index.html.erb~
+#	new file:   app/views/person/new.html.erb
+#	new file:   app/views/person/new.html.erb~
+#	new file:   app/views/person/person.html.erb~
+#	new file:   app/views/person/update.html.erb
+#	new file:   config/boot.rb
+#	new file:   config/database.yml
+#	new file:   config/database.yml~
+#	new file:   config/environment.rb
+#	new file:   config/environments/development.rb
+#	new file:   config/environments/production.rb
+#	new file:   config/environments/test.rb
+#	new file:   config/initializers/backtrace_silencers.rb
+#	new file:   config/initializers/inflections.rb
+#	new file:   config/initializers/mime_types.rb
+#	new file:   config/initializers/new_rails_defaults.rb
+#	new file:   config/initializers/session_store.rb
+#	new file:   config/locales/en.yml
+#	new file:   config/routes.rb
+#	new file:   config/routes.rb~
+#	new file:   db/migrate/20131010160931_create_people.rb
+#	new file:   db/schema.rb
+#	new file:   db/seeds.rb
+#	new file:   doc/README_FOR_APP
+#	new file:   generate
+#	new file:   log/development.log
+#	new file:   log/production.log
+#	new file:   log/server.log
+#	new file:   log/test.log
+#	new file:   public/404.html
+#	new file:   public/422.html
+#	new file:   public/500.html
+#	new file:   public/favicon.ico
+#	new file:   public/images/rails.png
+#	new file:   public/javascripts/application.js
+#	new file:   public/javascripts/controls.js
+#	new file:   public/javascripts/dragdrop.js
+#	new file:   public/javascripts/effects.js
+#	new file:   public/javascripts/prototype.js
+#	new file:   public/robots.txt
+#	new file:   script/about
+#	new file:   script/console
+#	new file:   script/dbconsole
+#	new file:   script/destroy
+#	new file:   script/generate
+#	new file:   script/performance/benchmarker
+#	new file:   script/performance/profiler
+#	new file:   script/plugin
+#	new file:   script/runner
+#	new file:   script/server
+#	new file:   test/fixtures/people.yml
+#	new file:   test/functional/home_controller_test.rb
+#	new file:   test/functional/person_controller_test.rb
+#	new file:   test/performance/browsing_test.rb
+#	new file:   test/test_helper.rb
+#	new file:   test/unit/helpers/home_helper_test.rb
+#	new file:   test/unit/helpers/person_helper_test.rb
+#	new file:   test/unit/person_test.rb
+#
+]0;cezare@ubuntu: /var/www/hello_worldcezare@ubuntu:/var/www/hello_world$ git remote add origin git@github.com:abamboed/MyFirstApp.git
+]0;cezare@ubuntu: /var/www/hello_worldcezare@ubuntu:/var/www/hello_world$ git push -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'git@github.com:abamboed/MyFirstApp.git'
+]0;cezare@ubuntu: /var/www/hello_worldcezare@ubuntu:/var/www/hello_world$ git commit -m "first commit"
+[master (root-commit) 6861e43] first commit
+ 75 files changed, 9810 insertions(+)
+ create mode 100755 Gemfile
+ create mode 100644 Gemfile.lock
+ create mode 100755 Gemfile~
+ create mode 100644 README
+ create mode 100644 README.md
+ create mode 100644 Rakefile
+ create mode 100644 app/controllers/application_controller.rb
+ create mode 100644 app/controllers/home_controller.rb
+ create mode 100644 app/controllers/home_controller.rb~
+ create mode 100644 app/controllers/person_controller.rb
+ create mode 100644 app/controllers/person_controller.rb~
+ create mode 100644 app/helpers/application_helper.rb
+ create mode 100644 app/helpers/home_helper.rb
+ create mode 100644 app/helpers/person_helper.rb
+ create mode 100644 app/models/person.rb
+ create mode 100644 app/views/home/bye.html.erb
+ create mode 100644 app/views/home/hello.html.erb
+ create mode 100644 app/views/home/index.html.erb
+ create mode 100644 app/views/person/delete.html.erb
+ create mode 100644 app/views/person/edit.html.erb
+ create mode 100644 app/views/person/edit.html.erb~
+ create mode 100644 app/views/person/index.html.erb
+ create mode 100644 app/views/person/index.html.erb~
+ create mode 100644 app/views/person/new.html.erb
+ create mode 100644 app/views/person/new.html.erb~
+ create mode 100644 app/views/person/person.html.erb~
+ create mode 100644 app/views/person/update.html.erb
+ create mode 100644 config/boot.rb
+ create mode 100644 config/database.yml
+ create mode 100644 config/database.yml~
+ create mode 100644 config/environment.rb
+ create mode 100644 config/environments/development.rb
+ create mode 100644 config/environments/production.rb
+ create mode 100644 config/environments/test.rb
+ create mode 100644 config/initializers/backtrace_silencers.rb
+ create mode 100644 config/initializers/inflections.rb
+ create mode 100644 config/initializers/mime_types.rb
+ create mode 100644 config/initializers/new_rails_defaults.rb
+ create mode 100644 config/initializers/session_store.rb
+ create mode 100644 config/locales/en.yml
+ create mode 100644 config/routes.rb
+ create mode 100644 config/routes.rb~
+ create mode 100644 db/migrate/20131010160931_create_people.rb
+ create mode 100644 db/schema.rb
+ create mode 100644 db/seeds.rb
+ create mode 100644 doc/README_FOR_APP
+ create mode 100644 generate
+ create mode 100644 log/development.log
+ create mode 100644 log/production.log
+ create mode 100644 log/server.log
+ create mode 100644 log/test.log
+ create mode 100644 public/404.html
+ create mode 100644 public/422.html
+ create mode 100644 public/500.html
+ create mode 100644 public/favicon.ico
+ create mode 100644 public/images/rails.png
+ create mode 100644 public/javascripts/application.js
+ create mode 100644 public/javascripts/controls.js
+ create mode 100644 public/javascripts/dragdrop.js
+ create mode 100644 public/javascripts/effects.js
+ create mode 100644 public/javascripts/prototype.js
+ create mode 100644 public/robots.txt
+ create mode 100755 script/about
+ create mode 100755 script/console
+ create mode 100755 script/dbconsole
+ create mode 100755 script/destroy
+ create mode 100755 script/generate
+ create mode 100755 script/performance/benchmarker
+ create mode 100755 script/performance/profiler
+ create mode 100755 script/plugin
+ create mode 100755 script/runner
+ create mode 100755 script/server
+ create mode 100644 test/fixtures/people.yml
+ create mode 100644 test/functional/home_controller_test.rb
+ create mode 100644 test/functional/person_controller_test.rb
+ create mode 100644 test/performance/browsing_test.rb
+ create mode 100644 test/test_helper.rb
+ create mode 100644 test/unit/helpers/home_helper_test.rb
+ create mode 100644 test/unit/helpers/person_helper_test.rb
+ create mode 100644 test/unit/person_test.rb
+]0;cezare@ubuntu: /var/www/hello_worldcezare@ubuntu:/var/www/hello_world$ git commit -m "first commit"[3Ppush -u origin master
+Counting objects: 99, done.
+Delta compression using up to 4 threads.
+Compressing objects:   1% (1/89)   Compressing objects:   2% (2/89)   Compressing objects:   3% (3/89)   Compressing objects:   4% (4/89)   Compressing objects:   5% (5/89)   Compressing objects:   6% (6/89)   Compressing objects:   7% (7/89)   Compressing objects:   8% (8/89)   Compressing objects:  10% (9/89)   Compressing objects:  11% (10/89)   Compressing objects:  12% (11/89)   Compressing objects:  13% (12/89)   Compressing objects:  14% (13/89)   Compressing objects:  15% (14/89)   Compressing objects:  16% (15/89)   Compressing objects:  17% (16/89)   Compressing objects:  19% (17/89)   Compressing objects:  20% (18/89)   Compressing objects:  21% (19/89)   Compressing objects:  22% (20/89)   Compressing objects:  23% (21/89)   Compressing objects:  24% (22/89)   Compressing objects:  25% (23/89)   Compressing objects:  26% (24/89)   Compressing objects:  28% (25/89)   Compressing objects:  29% (26/89)   Compressing objects:  30% (27/89)   Compressing objects:  31% (28/89)   Compressing objects:  32% (29/89)   Compressing objects:  33% (30/89)   Compressing objects:  34% (31/89)   Compressing objects:  35% (32/89)   Compressing objects:  37% (33/89)   Compressing objects:  38% (34/89)   Compressing objects:  39% (35/89)   Compressing objects:  40% (36/89)   Compressing objects:  41% (37/89)   Compressing objects:  42% (38/89)   Compressing objects:  43% (39/89)   Compressing objects:  44% (40/89)   Compressing objects:  46% (41/89)   Compressing objects:  47% (42/89)   Compressing objects:  48% (43/89)   Compressing objects:  49% (44/89)   Compressing objects:  50% (45/89)   Compressing objects:  51% (46/89)   Compressing objects:  52% (47/89)   Compressing objects:  53% (48/89)   Compressing objects:  55% (49/89)   Compressing objects:  56% (50/89)   Compressing objects:  57% (51/89)   Compressing objects:  58% (52/89)   Compressing objects:  59% (53/89)   Compressing objects:  60% (54/89)   Compressing objects:  61% (55/89)   Compressing objects:  62% (56/89)   Compressing objects:  64% (57/89)   Compressing objects:  65% (58/89)   Compressing objects:  66% (59/89)   Compressing objects:  67% (60/89)   Compressing objects:  68% (61/89)   Compressing objects:  69% (62/89)   Compressing objects:  70% (63/89)   Compressing objects:  71% (64/89)   Compressing objects:  73% (65/89)   Compressing objects:  74% (66/89)   Compressing objects:  75% (67/89)   Compressing objects:  76% (68/89)   Compressing objects:  77% (69/89)   Compressing objects:  78% (70/89)   Compressing objects:  79% (71/89)   Compressing objects:  80% (72/89)   Compressing objects:  82% (73/89)   Compressing objects:  83% (74/89)   Compressing objects:  84% (75/89)   Compressing objects:  85% (76/89)   Compressing objects:  86% (77/89)   Compressing objects:  87% (78/89)   Compressing objects:  88% (79/89)   Compressing objects:  89% (80/89)   Compressing objects:  91% (81/89)   Compressing objects:  92% (82/89)   Compressing objects:  93% (83/89)   Compressing objects:  94% (84/89)   Compressing objects:  95% (85/89)   Compressing objects:  96% (86/89)   Compressing objects:  97% (87/89)   Compressing objects:  98% (88/89)   Compressing objects: 100% (89/89)   Compressing objects: 100% (89/89), done.
+Writing objects:   1% (1/99)   Writing objects:   2% (2/99)   Writing objects:   3% (3/99)   Writing objects:   4% (4/99)   Writing objects:   5% (5/99)   Writing objects:   6% (6/99)   Writing objects:   7% (7/99)   Writing objects:   8% (8/99)   Writing objects:   9% (9/99)   Writing objects:  10% (10/99)   Writing objects:  11% (11/99)   Writing objects:  12% (12/99)   Writing objects:  13% (13/99)   Writing objects:  14% (14/99)   Writing objects:  15% (15/99)   Writing objects:  16% (16/99)   Writing objects:  17% (17/99)   Writing objects:  18% (18/99)   Writing objects:  19% (19/99)   Writing objects:  20% (20/99)   Writing objects:  21% (21/99)   Writing objects:  22% (22/99)   Writing objects:  23% (23/99)   Writing objects:  24% (24/99)   Writing objects:  25% (25/99)   Writing objects:  26% (26/99)   Writing objects:  27% (27/99)   Writing objects:  29% (29/99)   Writing objects:  30% (30/99)   Writing objects:  31% (31/99)   Writing objects:  32% (32/99)   Writing objects:  33% (33/99)   Writing objects:  34% (34/99)   Writing objects:  35% (35/99)   Writing objects:  36% (36/99)   Writing objects:  37% (37/99)   Writing objects:  38% (38/99)   Writing objects:  39% (39/99)   Writing objects:  40% (40/99)   Writing objects:  41% (41/99)   Writing objects:  42% (42/99)   Writing objects:  43% (43/99)   Writing objects:  44% (44/99)   Writing objects:  45% (45/99)   Writing objects:  46% (46/99)   Writing objects:  47% (47/99)   Writing objects:  48% (48/99)   Writing objects:  49% (49/99)   Writing objects:  50% (50/99)   Writing objects:  51% (51/99)   Writing objects:  52% (52/99)   Writing objects:  53% (53/99)   Writing objects:  54% (54/99)   Writing objects:  55% (55/99)   Writing objects:  56% (56/99)   Writing objects:  57% (57/99)   Writing objects:  58% (58/99)   Writing objects:  59% (59/99)   Writing objects:  60% (60/99)   Writing objects:  61% (61/99)   Writing objects:  62% (62/99)   Writing objects:  63% (63/99)   Writing objects:  64% (64/99)   Writing objects:  65% (65/99)   Writing objects:  66% (66/99)   Writing objects:  67% (67/99)   Writing objects:  68% (68/99)   Writing objects:  69% (69/99)   Writing objects:  70% (70/99)   Writing objects:  71% (71/99)   Writing objects:  72% (72/99)   Writing objects:  73% (73/99)   Writing objects:  74% (74/99)   Writing objects:  75% (75/99)   Writing objects:  77% (77/99)   Writing objects:  78% (78/99)   Writing objects:  79% (79/99)   Writing objects:  80% (80/99)   Writing objects:  81% (81/99)   Writing objects:  82% (82/99)   Writing objects:  83% (83/99)   Writing objects:  84% (84/99)   Writing objects:  85% (85/99)   Writing objects:  86% (86/99)   Writing objects:  87% (87/99)   Writing objects:  88% (88/99)   Writing objects:  89% (89/99)   Writing objects:  91% (91/99)   Writing objects:  92% (92/99)   Writing objects:  93% (93/99)   Writing objects:  94% (94/99)   Writing objects:  95% (95/99)   Writing objects:  96% (96/99)   Writing objects:  97% (97/99)   Writing objects:  98% (98/99)   Writing objects: 100% (99/99)   Writing objects: 100% (99/99), 88.06 KiB, done.
+Total 99 (delta 11), reused 0 (delta 0)
+To git@github.com:abamboed/MyFirstApp.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+]0;cezare@ubuntu: /var/www/hello_worldcezare@ubuntu:/var/www/hello_world$ exit
+exit
+
+Script done on Thu 10 Oct 2013 08:39:20 PM CAT
